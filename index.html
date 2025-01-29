@@ -7,12 +7,14 @@
     <script defer src="./script.js"></script>
   </head>
   <body>
-    <div>
+    <div class="input">
+      <span>Convert To : </span>
       <select id="conversionType">
         <option value="celsius">celsius</option>
         <option value="farenheit">farenheit</option>
       </select>
-      <input type="number" placeholder="Enter a Number" />
+      <input id="tempInput" type="number" placeholder="Enter a Number" />
     </div>
+    <div class="output"></div>
   </body>
 </html>
